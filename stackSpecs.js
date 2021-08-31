@@ -1,4 +1,4 @@
-describe("A new stack", function () {
+describe("A new stack", function() {
   var myStack;
 
   beforeEach(function () {
@@ -13,7 +13,6 @@ describe("A new stack", function () {
     expect(function () { myStack.pop() })
       .toThrow(new Error("Stack underflow"));
   })
-
 
   describe("which had one push", function () {
     beforeEach(function () {
@@ -43,4 +42,3 @@ describe("A new stack", function () {
     })
   })
 })
-
